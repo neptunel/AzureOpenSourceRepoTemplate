@@ -1,0 +1,19 @@
+# Lines starting with '#' are comments.
+# Each line below associates a file/directory pattern with one or more GitHub users or teams.
+
+# Example: Assigning an owner for a specific file
+# /path/to/file.txt @username
+
+# Example: Assigning an owner for a whole directory and its contents
+# /path/to/directory/ @username
+
+# Example: Assigning multiple owners for a directory
+# /path/to/directory/ @username1 @username2 @team-name
+
+# Example: Assigning an owner for all files with a specific extension
+# *.ext @username
+
+# Example: Assigning an owner for all files in a directory with a specific extension
+# /path/to/directory/*.ext @username
+
+# Add your CODEOWNERS rules below:
