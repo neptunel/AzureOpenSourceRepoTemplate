@@ -1,6 +1,17 @@
 # Azure Storage & SWS Open Source Repo Template
 This repository is a template to guide developers who want to release open-source projects under Microsoft’s Organizations, specifically for Azure.
 Update the README header and remove instructions.
+
+---
+page_type: sample
+languages:
+- csharp
+products:
+- dotnet
+description: "Add 150 character max description"
+urlFragment: "update-this-to-unique-url-stub"
+---
+
 <!-- 
 Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
 

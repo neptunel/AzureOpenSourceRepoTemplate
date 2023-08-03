@@ -16,4 +16,5 @@
 # Example: Assigning an owner for all files in a directory with a specific extension
 # /path/to/directory/*.ext @username
 
-# Add your CODEOWNERS rules below:
+# Add your CODEOWNERS rules below or just add @username1 @username2 for the entire repo:
+

@@ -1,47 +1,33 @@
 # Release Checklist
 
-Follow these step-by-step tasks to release and maintain your open source project using the MIT license. Ensure you complete each item before moving on to the next:
+Follow these step-by-step tasks to release and maintain your open source project using the MIT license. Ensure you complete each item before moving on to the next. This file is only for repo owner, not for production. DELETE THIS FILE WHEN YOU ARE DONE WITH THE RELEASE.
 
 1.  [ ] Register your release:
    - Use the [Open Source Portal](https://repos.opensource.microsoft.com/release) to register your intended release.
    - This will trigger a review by CELA and management.
+   - Follow the “AzProjectName” naming scheme for the project.
 
 2. [ ] Create and initialize a GitHub repository:
    - [Create your GitHub repository](https://docs.opensource.microsoft.com/releasing/release-on-github/repo-creation) using the [repository wizard](https://repos.opensource.microsoft.com/microsoft/new).
    - Repositories must be hosted within a 1ES-managed GitHub organization and may not be made public until the release registration is approved by CELA and management.
-   - Include the following in the root directory:
-      - A README.md file describing the purpose and state of the repository, including third-party code information.
-      - A LICENSE.txt file with the [MIT license text](https://docs.opensource.microsoft.com/releasing/general-guidance/boilerplate-license-files). (Other licenses must be cleared with CELA.)
-      - A CONTRIBUTING.md file with instructions for contributing to the project, including Microsoft's Contributor License Agreement and technical guidance.
-      - A SECURITY.md file using the [repo-templates/SECURITY.md template](https://github.com/microsoft/repo-templates/blob/main/shared/SECURITY.md).
-      - A CODE_OF_CONDUCT.md file using the [repo-templates/CODE_OF_CONDUCT.md template](https://github.com/microsoft/repo-templates/blob/main/shared/CODE_OF_CONDUCT.md).
-      - Consider adding a SUPPORT.md file using the [repo-templates/SUPPORT.md template](https://github.com/microsoft/repo-templates/blob/main/projections/mit/SUPPORT.md).
-      - Telemetry Notice: If the release has code that enables Microsoft to collect telemetry, provide instructions to turn off the telemetry and include the [telemetry/data collection notice](https://docs.opensource.microsoft.com/releasing/general-guidance/telemetry) in the README.md file.
-      - Trademark Notice: Include the provided Trademark notice in your README.md, ensuring proper use of Microsoft trademarks and logos.
-      - Security Reporting Instructions: Include instructions for privately reporting security vulnerabilities found in your project.
-      - Consider registering a domain name for your project following the [open source project domain name guidance](https://docs.opensource.microsoft.com/releasing/prepare-for-release/project-naming-and-domain-names#open-source-project-domain-name-guidance).
+   - This template includes all the required files in the root directory.
 
 3. [ ] Prepare the code for release:
-   - Ensure the code is licensed under the MIT license by including the [language-appropriate comment](https://docs.opensource.microsoft.com/releasing/general-guidance/copyright-headers) at the head of each source file.
+   - Edit the README.md following the format in the template.
+   - Edit the CODEOWNERS file under .github/ folder with the owner's GitHub username.
    - Remove sensitive assets, such as internal or confidential information, internal paths, tools, codenames, proprietary fonts, internal telemetry, and email aliases.
    - Remove any trademarks or product icons.
    - Follow the [going public guidance](https://docs.opensource.microsoft.com/releasing/general-guidance/going-public) to prepare the code and commit history for publication, including running PoliCheck.
-   - Follow your organization's Secure Development Lifecycle (SDL) process or use 1CS for any required security and threat model reviews.
    - If your repository includes third-party OSS, describe its use and its license in a NOTICE file. Consult with OSS CELA when in doubt.
 
 4. [ ] Publish the code:
-   - Once your registration and review process is complete, make your GitHub repository public.
+   - Once your registration and review process is complete, make your GitHub repository public. The repository should include a short and comprehensive Description. The link to the [created sample](https://learn.microsoft.com/samples/) or [documentation](/learn.microsoft.com/docs/) should be provided in the Website section. To increase discoverability and categorization, add related topics. 
 
-5. [ ] Going forward, ensure:
-   - [ ] Further Microsoft Contributions:
-     - File a [contribution request](https://docs.opensource.microsoft.com/contributing/third-party) if the feature you are adding is outside the scope of your original release request or if you are adding non-open source Microsoft code that your team did not author.
-   - [ ] Staffing:
-     - Ensure at least one team member is committed to managing community interactions, merging pull requests, giving feedback, and releasing new versions.
-   - [ ] Buildable & Runnable:
-     - Make sure your project is easy to build and has binaries available, as this is essential for attracting contributors.
-   - [ ] Security:
-     - Ensure your project follows your organization's SDL requirements and expectations for security reviews, responding to security alerts, and other best practices for product/service development.
-   - [ ] Foster your community:
-     - Look for ways to continue engagement with potential contributors and foster a thriving community.
+5. [ ] Register the sample in Samples Gallery
+    - Follow the [guidelines](https://review.learn.microsoft.com/en-us/help/contribute/samples/?branch=main) to onboard the sample in [Microsoft Samples Gallery](https://learn.microsoft.com/samples/).
+    - After generating a https://learn.microsoft.com/samples/ URL for the sample, link it in the repository description. 
+    - Create an [aka.ms](aka.ms) alias for the sample URL.
+    - If the sample is a tool/utility for Azure Storage, update the [Azure Storage PM GitHub](https://azure.github.io/Storage/docs/tools-and-utilities/) from [this index.html](https://github.com/Azure/Storage/blob/master/docs/docs/tools-and-utilities/index.html) and add a link to the sample in  https://learn.microsoft.com/samples/.
 
-By following these guidelines, you can release your open source project using the MIT license and maintain it successfully while complying with Microsoft's policies and standards.
+
+If you need more information check out the [detailed instructions](https://docs.opensource.microsoft.com/releasing/) and aka.ms/opensource
