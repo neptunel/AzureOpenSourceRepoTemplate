@@ -11,6 +11,7 @@ products:
   - azure-blob-storage
 urlFragment: update-this-to-unique-url-stub
 ---
+
 # Azure Storage & SWS Open Source Repo Template
 This repository is a template to guide developers who want to release open-source projects under Microsoft’s Organizations, specifically for Azure.
 Update the README header and remove instructions.
