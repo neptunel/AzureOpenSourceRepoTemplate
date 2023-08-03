@@ -3,9 +3,9 @@
 Follow these step-by-step tasks to release and maintain your open source project using the MIT license. Ensure you complete each item before moving on to the next. This file is only for repo owner, not for production. DELETE THIS FILE WHEN YOU ARE DONE WITH THE RELEASE.
 
 1.  [ ] Register your release:
-   - Use the [Open Source Portal](https://repos.opensource.microsoft.com/release) to register your intended release.
-   - This will trigger a review by CELA and management.
-   - Follow the “AzProjectName” naming scheme for the project.
+    - Use the [Open Source Portal](https://repos.opensource.microsoft.com/release) to register your intended release.
+    - This will trigger a review by CELA and management.
+    - Follow the “AzProjectName” naming scheme for the project.
 
 2. [ ] Create and initialize a GitHub repository:
    - [Create your GitHub repository](https://docs.opensource.microsoft.com/releasing/release-on-github/repo-creation) using the [repository wizard](https://repos.opensource.microsoft.com/microsoft/new).
