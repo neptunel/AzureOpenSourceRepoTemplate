@@ -27,13 +27,12 @@ Give a short description for your sample here. What does it do and why is it imp
 
 ## Contents
 
-Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
+Sample outline of the file contents of the repository. Helps users navigate the codebase, build configuration and any related assets. Edit according to your project's structure. 
 
 | File/folder       | Description                                |
 |-------------------|--------------------------------------------|
 | `src`             | Sample source code.                        |
 | `.gitignore`      | Define what to ignore at commit time.      |
-| `CHANGELOG.md`    | List of changes to the sample.             |
 | `CONTRIBUTING.md` | Guidelines for contributing to the sample. |
 | `README.md`       | This README file.                          |
 | `LICENSE`         | The license for the sample.                |
