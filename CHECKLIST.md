@@ -30,4 +30,4 @@ Follow these step-by-step tasks to release and maintain your open source project
     - If the sample is a tool/utility for Azure Storage, update the [Azure Storage PM GitHub](https://azure.github.io/Storage/docs/tools-and-utilities/) from [this index.html](https://github.com/Azure/Storage/blob/master/docs/docs/tools-and-utilities/index.html) and add a link to the sample in  https://learn.microsoft.com/samples/.
 
 
-If you need more information check out the [detailed instructions](https://docs.opensource.microsoft.com/releasing/) and [aka.ms/opensource]
+If you need more information check out the [detailed instructions](https://docs.opensource.microsoft.com/releasing/) and https://aka.ms/opensource
