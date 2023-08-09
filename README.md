@@ -3,7 +3,7 @@ page_type: sample
 name: AzProjectName
 topic: sample
 description: |
-  AzProjectName is a sample application designed to help Azure Storage customers ...... COMPLETE THE DESCRIPTION
+  AzProjectName is a sample application designed to ...... COMPLETE THE DESCRIPTION - Use the same description to edit the repository description.
 languages:
   - csharp
 products:
