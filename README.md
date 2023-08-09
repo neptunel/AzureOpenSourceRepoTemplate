@@ -51,7 +51,7 @@ Outline step-by-step instructions to execute the sample and see its output. Incl
 
 ## Key concepts
 
-Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other.
+Provide users with more context on the tools and services used in the sample. Explain some of the code that is being used and how services interact with each other. Include existing https://learn.microsoft.com/ documentation, training, or code samples that might be related to the sample for more information.
 
 ## Trademarks
 
