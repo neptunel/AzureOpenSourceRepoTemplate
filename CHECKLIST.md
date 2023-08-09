@@ -9,6 +9,7 @@ Follow these step-by-step tasks to release and maintain your open source project
 
 2. [ ] Create and initialize a GitHub repository:
    - [Create your GitHub repository](https://docs.opensource.microsoft.com/releasing/release-on-github/repo-creation) using the [repository wizard](https://repos.opensource.microsoft.com/microsoft/new).
+   - Repository needs a direct owner and a co-owner, and it should be mapped to a Service in the Service Tree.(ex: Xstore)
    - Repositories must be hosted within a 1ES-managed GitHub organization and may not be made public until the release registration is approved by CELA and management. If you got your release pre-approval you can make your repo public.
    - This template includes all the required files in the root directory.
 
